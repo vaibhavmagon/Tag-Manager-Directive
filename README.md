@@ -4,6 +4,7 @@ tagManager
 Angular Directive for Tag Management. Can be used in Application directly following Readme.
 
 /********* Features *********/
+
 This Directive gives Full Control Over adding and deleting the tags in a small Tag Manager module. This lets you create new,add from existing and delete 
 tags from a map of tags.
 
