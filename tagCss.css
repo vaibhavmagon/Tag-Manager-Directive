@@ -1,0 +1,134 @@
+.tagsList{
+    column-count:4;
+    padding-left:0px;
+    padding: 10px 0px;
+    -webkit-column-count:4;
+    -moz-column-count:4;
+}
+.tagsListNew{
+    padding-left:5px;
+}
+.tagsListNewShow{
+    padding-left:0px;
+    width:100%;
+}
+.tagsListNewShow li.taglistclickshow{
+    display:inline-block;
+    margin-bottom: -3px;
+    margin-right: 3px;
+}
+.tagsListNewShow li.taglistclickshowinput{
+    display:inline-block;
+    width: 40%;
+}
+.tagsListNew li{
+    display:inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.tagsList li{
+    font-size: 12px;
+    font-weight: normal;
+    background-color: white;
+    color: #08C;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+.taglabel{
+    position: absolute;
+    top: 0px;
+    right: 16px;
+    background:transparent;
+    border-radius:0px;
+    height:33px;
+    border:0px solid white;
+}
+.tagcookie{
+    border: 1px solid #f3f3f3;
+    background: whitesmoke;
+    border-radius: 15px;
+    padding: 0px 5px;
+}
+.removeTag{
+    cursor:pointer;
+}
+.taglistclickshow{
+    position: relative;
+    max-width: 150px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background-color: #e4e4e4;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
+    background-image: -webkit-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-image: -moz-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-image: -o-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-clip: padding-box;
+    box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+    color: #333;
+    line-height: 7px;
+    cursor: default;
+    padding: 4px;
+    font-size:10px;
+    margin-bottom: 5px;
+}
+.zeroPad{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.inputtags{
+    background-color: white;
+    font-size: 13px;
+    border: 1px solid #DDD;
+    display: inline;
+    min-height: 30px; /* 36 */
+    padding:3px 5px;
+}
+.inputtagdiv{
+    padding-left: 0px;
+}
+.tagsdiv{
+    padding-right: 0px;
+    display:inline-flex;
+}
+.taginput{
+    border:0px solid white;
+    background:transparent;
+    font-size:12px;
+    width:100%;
+}
+.tagDroplistNew {
+    border: 1px solid #ececec;
+    padding-left: 0px;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    width: 100.5%;
+    margin-top:3px;
+    max-height: 110px;
+    overflow-y: auto;
+    margin-left: -6px;
+}
+.tagDroplistNew li:hover{
+    background-color:#222;
+    color:white;
+    cursor:pointer;
+    padding: 5px 5px;
+    font-size: 11px;
+}
+.tagDroplistNew li{
+    background-color: #f9f9f9;
+    color:#222;
+    padding: 5px 5px;
+    font-size: 11px;
+}
+.btnTagMg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 3px;
+}
+.tagNameDM{
+    font-size:11px;
+    color: #08b;
+}
