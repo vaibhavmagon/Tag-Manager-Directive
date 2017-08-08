@@ -21,10 +21,7 @@ Necessary Things to be installed with this:
 		</tag-manager>
         <span class="tagsbadge email" data-text="Email" ng-repeat="tag in column.tags"> {{ tag.tagName }}</span>
     </div>
-
-// Tags as in full array of object of tags.
-// coltags as in tags assigned to a particular dataset.
-
+    
 
 2. In the Main Controller add the following lines For controlling Opening and Closing of tag Manager:
     $scope.isShowingTagManager = false;
